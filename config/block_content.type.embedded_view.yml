@@ -1,0 +1,8 @@
+uuid: c9f38076-b28e-4733-890b-dd4e0b797cba
+langcode: en
+status: true
+dependencies: {  }
+id: embedded_view
+label: 'Embedded View'
+revision: false
+description: null

@@ -1,0 +1,37 @@
+uuid: 63fa25df-5e89-4da9-bf2d-e8d71ce91b38
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.embedded_view
+    - field.field.block_content.embedded_view.field_background_colour
+    - field.field.block_content.embedded_view.field_view
+  module:
+    - color_field
+    - viewsreference
+_core:
+  default_config_hash: 9FMxny5Sya4EwE2vNZSon03ibX7Cy4DPNilcRTL40Ug
+id: block_content.embedded_view.default
+targetEntityType: block_content
+bundle: embedded_view
+mode: default
+content:
+  field_background_colour:
+    type: color_field_formatter_text
+    label: above
+    settings:
+      format: hex
+      opacity: true
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_view:
+    type: viewsreference_formatter
+    label: above
+    settings:
+      plugin_types:
+        - block
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

@@ -1,0 +1,9 @@
+name: 'ZC Embeddable View'
+description: 'Installs Zoocha Embeddable View Component'
+type: 'Feature'
+
+recipes:
+  - zr-layout-builder-bundle
+
+config:
+  strict: false
