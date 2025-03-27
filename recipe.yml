@@ -4,6 +4,7 @@ type: 'Feature'
 
 recipes:
   - zr-layout-builder-bundle
-
+install:
+  - color_field
 config:
   strict: false
