@@ -6,7 +6,6 @@ dependencies:
     - block_content.type.embedded_view
     - field.field.block_content.embedded_view.field_view
   module:
-    - color_field
     - viewsreference
 id: block_content.embedded_view.default
 targetEntityType: block_content
