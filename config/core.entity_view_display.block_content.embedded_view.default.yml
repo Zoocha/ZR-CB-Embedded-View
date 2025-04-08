@@ -16,7 +16,7 @@ mode: default
 content:
   field_background_colour:
     type: color_field_formatter_text
-    label: above
+    label: hidden
     settings:
       format: hex
       opacity: true
@@ -25,7 +25,7 @@ content:
     region: content
   field_view:
     type: viewsreference_formatter
-    label: above
+    label: hidden
     settings:
       plugin_types:
         - block
