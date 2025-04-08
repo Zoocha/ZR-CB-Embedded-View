@@ -4,7 +4,6 @@ status: true
 dependencies:
   config:
     - block_content.type.embedded_view
-    - field.field.block_content.embedded_view.field_background_colour
     - field.field.block_content.embedded_view.field_view
   module:
     - color_field
@@ -14,15 +13,6 @@ targetEntityType: block_content
 bundle: embedded_view
 mode: default
 content:
-  field_background_colour:
-    type: color_field_formatter_text
-    label: hidden
-    settings:
-      format: hex
-      opacity: true
-    third_party_settings: {  }
-    weight: 0
-    region: content
   field_view:
     type: viewsreference_formatter
     label: hidden

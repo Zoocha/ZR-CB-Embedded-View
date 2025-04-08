@@ -4,7 +4,6 @@ status: true
 dependencies:
   config:
     - block_content.type.embedded_view
-    - field.field.block_content.embedded_view.field_background_colour
     - field.field.block_content.embedded_view.field_view
   module:
     - color_field
@@ -14,13 +13,6 @@ targetEntityType: block_content
 bundle: embedded_view
 mode: default
 content:
-  field_background_colour:
-    type: color_field_widget_box
-    weight: 26
-    region: content
-    settings:
-      default_colors: '#ffffff,#3a11cb,#ff5d35,#201e26'
-    third_party_settings: {  }
   field_view:
     type: viewsreference_select
     weight: 27

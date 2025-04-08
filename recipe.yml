@@ -5,7 +5,6 @@ type: 'Feature'
 recipes:
   - zr-layout-builder-bundle
 install:
-  - color_field
   - viewsreference
 config:
   strict: false
